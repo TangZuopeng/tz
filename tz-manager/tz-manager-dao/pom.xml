@@ -6,8 +6,7 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>tz-manager-dao</artifactId>
-  <!-- 配置个性依赖 -->
-	<dependencies>
+  <dependencies>
 		<!-- Mybatis -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
@@ -21,7 +20,10 @@
 			<groupId>com.github.miemiedev</groupId>
 			<artifactId>mybatis-paginator</artifactId>
 		</dependency>
-		
+		<dependency>
+			<groupId>com.github.pagehelper</groupId>
+			<artifactId>pagehelper</artifactId>
+		</dependency>
 		<!-- MySql -->
 		<dependency>
 			<groupId>mysql</groupId>
