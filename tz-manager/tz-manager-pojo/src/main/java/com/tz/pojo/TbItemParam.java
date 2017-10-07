@@ -50,6 +50,6 @@ public class TbItemParam {
     }
 
     public void setParamData(String paramData) {
-        this.paramData = paramData == null ? null : paramData.trim();
+        this.paramData = (paramData == null ? null : paramData.trim());
     }
 }

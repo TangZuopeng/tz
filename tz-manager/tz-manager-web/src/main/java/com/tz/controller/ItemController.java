@@ -21,8 +21,7 @@ public class ItemController {
 	@ResponseBody
 	public EasyUIDataGridResult getTbItemList(Integer page, Integer rows){
 //		System.out.println(page + " " + rows);
-		EasyUIDataGridResult result = tbItemService.getTbItemList(page, rows);
-		return result;
+		return tbItemService.getTbItemList(page, rows);
 	}
 	
 	@RequestMapping(value = "/item/save", method = RequestMethod.POST)
