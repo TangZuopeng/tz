@@ -8,5 +8,7 @@ public interface TbItemService {
 
 	public EasyUIDataGridResult getTbItemList(int page, int rows);
 	
-	public TzResult createItem(TbItem item, String desc);
+	public TzResult createItem(TbItem item, String desc, String itemParams);
+	
+	public String getItemParamItemByid(long itemId);
 }
